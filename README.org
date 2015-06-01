@@ -1,1 +1,10 @@
 * Web Server
+** Routes
+*** GET
+**** ~/~
+Responds with the text, "Hello, world!".
+**** ~/hi~
+Attempts to respond with the text, "Hello, {{User-Agent}}!".
+*Default*: "world"
+**** ~/:echo~
+Reponds with the text, "ECHO {{echo}}".
