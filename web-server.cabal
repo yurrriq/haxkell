@@ -5,6 +5,7 @@ name:                web-server
 version:             0.1.0.0
 -- synopsis:
 -- description:
+homepage:            https://github.com/yurrriq/haxkell/tree/web-server
 license:             MIT
 license-file:        LICENSE
 author:              Eric Bailey
@@ -21,6 +22,7 @@ executable web-server
   main-is:             Main.hs
   -- other-modules:
   -- other-extensions:
-  build-depends:       base -any, scotty -any
+  build-depends:       base -any,
+                       scotty -any
   hs-source-dirs:      src
   default-language:    Haskell2010
