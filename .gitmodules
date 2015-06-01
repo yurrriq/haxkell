@@ -1,0 +1,4 @@
+[submodule "web-server"]
+	path = web-server
+	url = git@github.com:yurrriq/haxkell.git
+	branch = web-server
