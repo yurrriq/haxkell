@@ -11,3 +11,6 @@ main = scotty 3000 $ do
   get "/hi" $ do
     agent <- header "User-Agent"
     text $ mconcat ["Hello, ", fromMaybe "world" agent, "!"]
+  get "/:echo" $ do
+    echo <- param "echo"
+    text $ mconcat ["ECHO ", echo]
