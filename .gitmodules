@@ -2,3 +2,7 @@
 	path = web-server
 	url = git@github.com:yurrriq/haxkell.git
 	branch = web-server
+[submodule "iff"]
+	path = iff
+	url = git@github.com:yurrriq/haxkell.git
+	branch = iff
