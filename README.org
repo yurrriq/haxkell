@@ -1,0 +1,2 @@
+* Haxkell Documentation
+[[http://yurrriq.github.io/haxkell]][Haddock-generated documentation]]
