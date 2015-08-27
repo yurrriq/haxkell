@@ -6,3 +6,7 @@
 	path = iff
 	url = git@github.com:yurrriq/haxkell.git
 	branch = iff
+[submodule "clojure-list"]
+	path = clojure-list
+	url = git@github.com:yurrriq/haxkell.git
+	branch = clojure-list
