@@ -10,3 +10,7 @@
 	path = clojure-list
 	url = git@github.com:yurrriq/haxkell.git
 	branch = clojure-list
+[submodule "doc"]
+	path = doc
+	url = git@github.com:yurrriq/haxkell.git
+	branch = gh-pages
