@@ -1,0 +1,2 @@
+* clojure-list
+Clojure-inspired list functions for Haskell.

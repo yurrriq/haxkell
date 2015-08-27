@@ -1,0 +1,34 @@
+name:                clojure-list
+version:             0.1.0.0
+synopsis:            Clojure-inspired list functions for Haskell.
+description:         Please see README.org
+homepage:            http://github.com/yurrriq/haxkell/tree/clojure-list
+license:             MIT
+license-file:        LICENSE
+author:              Eric Bailey
+maintainer:          eric@ericb.me
+copyright:           (c) Eric Bailey
+category:            Data
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Data.List.Clojure
+                     , Data.List.Clojure.Generic
+  build-depends:       base >= 4.7 && < 5
+  default-language:    Haskell2010
+
+test-suite clojure-list-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  build-depends:       base
+                     , clojure-list
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  default-language:    Haskell2010
+
+source-repository this
+  type:     git
+  location: https://github.com/yurrriq/haxkell/clojure-list
