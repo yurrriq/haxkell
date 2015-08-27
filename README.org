@@ -1,2 +1,8 @@
 * clojure-list
 Clojure-inspired list functions for Haskell.
+
+* Documentation
+[[http://yurrriq.github.io/haxkell/clojure-list/][Haddock-generated HTML]]
+
+* License
+[[file:LICENSE][MIT]]
