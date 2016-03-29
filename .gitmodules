@@ -14,3 +14,7 @@
 	path = doc
 	url = git@github.com:yurrriq/haxkell.git
 	branch = gh-pages
+[submodule "polyglot"]
+	path = polyglot
+	url = git@github.com:yurrriq/haxkell.git
+	branch = polyglot
